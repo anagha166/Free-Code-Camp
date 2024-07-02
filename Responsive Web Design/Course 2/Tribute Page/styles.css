@@ -1,0 +1,49 @@
+html{
+    background-color: #73805B;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  .descrip{
+  margin-top: -15px;
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    width: 90%;
+    padding-top: 20;
+    height: auto;
+    object-fit: cover;
+    margin: 10px auto;
+  }
+  div{
+    background-color: #C5CCB7;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+  }
+  .title,p{
+    text-align: center;
+  }
+  .title{
+    text-shadow: 2px 2px #95A27C;
+  }
+  figcaption{
+    padding-bottom: 10;
+    font-size: 1.2rem;
+  }
+  #tribute-info p{
+    text-align: left;
+  }
+  #tribute-info{
+    margin-top: -20px;
+    padding: 10 10 10 0;
+    background-color: #73805B;
+  }
+  #tribute-link:hover{
+    color: #C5CCB7;
+  }
+  #tribute-link{
+    color: #38361D;
+  }
+  

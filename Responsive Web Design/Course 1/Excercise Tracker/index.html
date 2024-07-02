@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Workout Monitor
+</title>
+<meta charset='utf-8'>
+<link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <h1 id='title'>Workout Monitor</h1>
+  <p id='description'><em>Weekly fitness tracker</em></p>
+  <form id='survey-form' method="post" action='https://register-demo.freecodecamp.org'>
+  <main>
+    <fieldset class='f1'>
+      <legend class='topic'>Information</legend>
+      <label id='name-label'><em>Name <input class='info' type='text' id='name' placeholder='John Smith' required/> </label>
+      <label id='email-label'>Email <input class='info' type='email' id='email' placeholder='jsmith@gmail.com'required/></label>
+      <label id='number-label'>Age(optional) <input class='info' type='number' id='number' placeholder='35' min='13' max='80'/></label>
+      <label id='date-label'>Date</em> <input class='info' type='date' id='date' required/></label>
+  `</fieldset>
+   <fieldset>
+     <legend class='topic'>How do you keep active during the week?</legend> 
+     <label class='ques'>
+        Walking
+        <input class='check' type='checkbox' id='walk' value='walk' checked/>
+      </label>
+     <label class='ques'>
+       Sports team/class
+       <input type='checkbox' id='sports' value='sports' />
+     </label>
+     <label class='ques'>
+       Gym/Machines
+       <input class='check' type='checkbox' id='machines' value='machines' />
+     </label>
+     <label class='ques'>
+       Running
+       <input class='check' type='checkbox' id='run' value='run' />
+     </label>
+     <label class='ques'>
+       Swimming
+       <input class='check' type='checkbox' id='swim' value='swim' />
+     </label>
+     <label class='ques'>
+       Biking
+       <input class='check' type='checkbox' id='bike' value='bike' />
+     </label>
+       <textarea class='textarea' id='othr' value='othr' rows='1' placeholder='other' ></textarea>
+   </fieldset>
+   <fieldset>
+     <label class='topic2'>
+       Avg time exercising in the last week
+       <select id='dropdown' required>
+         <option value=''>Select one</option>
+         <option value='1-3'>1-3 hrs</option>
+         <option value='3-5'> 3-5hrs</option>
+         <option value='5-10'>5-10 hrs</option>
+         <option value='10+'>10+ hrs</option>
+       </label>
+       </select>
+   </fieldset>
+   <fieldset>
+     <legend class='topic' >Where do you prefer to work out?</legend>
+     <label class='ques'><input type='radio' value='indoor' name='workout-place' checked/>Gym</label>
+     <label class='ques'><input type='radio' value='indoor' name='workout-place'/>Outdoors</label>
+     <label class='ques'><input type='radio' value='both' name='workout-place'/>Home</label>
+   </fieldset>
+   <fieldset>
+     <label class='topic2'>
+       Workout goals for next week </label>
+       <textarea class='textarea' id="textarea" name="textarea" rows="3" cols="30" placeholder="Going on at least 1 walk..."></textarea>
+   </fieldset>
+   </main>
+   <button id='submit' type='submit' value='submit'>Submit</button>
+   </form>
+</body> 
+</html>
